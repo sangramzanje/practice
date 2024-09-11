@@ -1,0 +1,54 @@
+opps concept
+
+public class Main {
+    int x = 5;
+  
+    public static void main(String[] args) {
+      Main myObj = new Main();
+      System.out.println(myObj.x);
+    }
+  }
+  
+two objects of Main
+
+public class Main {
+    int x = 5;
+  
+    public static void main(String[] args) {
+      Main myObj1 = new Main();
+      Main myObj2 = new Main();
+      System.out.println(myObj1.x);
+      System.out.println(myObj2.x);
+    }
+  }
+
+case concept
+
+public class GradeCalculator {
+    public static void main(String[] args) {
+        char grade = 'A';
+
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent!");
+                break;
+            case 'B':
+                System.out.println("Well done");
+                break;
+            case 'C':
+                System.out.println("Good");
+                break;
+            case 'D':
+                System.out.println("You passed");
+                break;
+            case 'F':
+                System.out.println("Better try again");
+                break;
+            default:
+                System.out.println("Invalid grade");
+                break;
+        }
+    }
+}                              
+
+
